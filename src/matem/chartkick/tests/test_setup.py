@@ -20,6 +20,18 @@ class TestsInstall(IntegrationTestCase):
         installer = getToolByName(self.portal, 'portal_quickinstaller')
         self.assertTrue(installer.isProductInstalled('matem.chartkick'))
 
+    def test_highcharts_jsregistry(self):
+        """Test if highcharts is listed in jsregistry"""
+        registry = getToolByName(self.portal, 'portal_javascripts')
+        chartkick = registry.getResource('++resource++highcharts.js')
+        self.assertTrue(chartkick is not None)
+
+    def test_chartkick_jsregistry(self):
+        """Test if chartkick is listed in jsregistry"""
+        registry = getToolByName(self.portal, 'portal_javascripts')
+        chartkick = registry.getResource('++resource++chartkick.js')
+        self.assertTrue(chartkick is not None)
+
 
 def test_suite():
     """This """
