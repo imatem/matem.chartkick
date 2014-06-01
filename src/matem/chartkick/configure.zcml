@@ -13,13 +13,18 @@
         name="default"
         title="matem.chartkick"
         directory="profiles/default"
-        description="Chartkick profile"
+        description="Profile for Chartkick resources"
         provides="Products.GenericSetup.interfaces.EXTENSION"
         />
 
     <browser:resource
         name="highcharts.js"
         file="resources/js/highcharts.js"
+        />
+
+    <browser:resource
+        name="chartkick.js"
+        file="resources/js/chartkick.js"
         />
 
     <!-- <include package=".example" /> -->
