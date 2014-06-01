@@ -47,7 +47,7 @@ setup(
             'flake8',
             'plone.app.debugtoolbar',
             'plone.reload',
-            'Product    s.PDBDebugMode',
+            'Products.PDBDebugMode',
             'Products.PrintingMailHost',
             'Sphinx',
             'zptlint',
