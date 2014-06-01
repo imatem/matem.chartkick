@@ -20,7 +20,7 @@ long_description = \
 setup(
     name='matem.chartkick',
     version=version,
-    description="Students Information system",
+    description="Plone Integration of chartkick plugin",
     long_description=long_description,
     # Get more from http://pypi.python.org/pypi?%3Aaction=list_classifiers
     classifiers=[
