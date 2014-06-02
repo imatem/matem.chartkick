@@ -8,4 +8,5 @@ script: bin/test && bin/code-analysis
 notifications:
   email:
     recipients:
-      - computoacademico@im.unam.mx
+      - adriana.rv@gmail.com
+      - gil.cano@gmail.com
